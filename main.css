@@ -25,9 +25,26 @@ header h1{
     font-size: 30px;
 }
 
+header .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: rgb(161, 185, 195);
+}
+
 header img{
     width: 36px;
     height: 36px;
+    cursor: pointer;
 }
 
 main{
@@ -80,4 +97,38 @@ main h2{
     margin-top: 20px;
     border-radius: 10px;
     background-color: #ffffff85;
+}
+
+/* ----------------------------------------------- */
+
+.form-producto{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.form-producto label{
+    margin-top: 20px;
+    color: rgb(254, 143, 125);
+}
+
+.form-producto input{
+    padding: 10px 8px;
+    margin: 6px 0px;
+    border-radius: 5px;
+}
+
+.form-producto p{
+    margin-top: 20px;
+    color: rgb(189, 189, 189);
+}
+
+.form-producto button{
+    max-width: 250px;
+    padding: 10px 8px;
+    margin: 6px 0px;
+    margin-top: 20px;
+    background-color: rgb(254, 143, 125);
+    border-radius: 5px;
+    cursor: pointer;
 }
